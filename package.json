@@ -1,0 +1,18 @@
+{
+  "name": "xap-portal-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "start:mcp": "node mcp/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.2",
+    "@playwright/test": "^1.57.0"
+  }
+}
